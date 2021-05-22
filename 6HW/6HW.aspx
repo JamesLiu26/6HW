@@ -9,8 +9,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <asp:Label ID="lb_Data" runat="server" Text=""></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text="輸入姓名："></asp:Label>
+        <asp:TextBox ID="tx_Name" runat="server" ></asp:TextBox>
+        <asp:Label ID="lb_Hint" runat="server" Text="" ForeColor="Red"></asp:Label><br /><br />
+        <asp:Button ID="btn_Del" runat="server" Text="Delete"  OnClick="btn_Del_Click"/>
     </form>
 </body>
 </html>
